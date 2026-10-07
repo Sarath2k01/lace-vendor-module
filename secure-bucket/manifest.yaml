@@ -1,0 +1,12 @@
+apiVersion: '1'
+axis: module
+author: vendor-org
+name: secure-bucket
+version: v1.0.0
+displayName: Secure S3 Bucket
+description: One private S3 bucket with encryption, versioning and public access blocked.
+configSchema: {}
+runtime:
+  location: in-tree
+bundle:
+  system: aws
